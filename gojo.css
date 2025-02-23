@@ -1,0 +1,57 @@
+body {
+    background-color: purple;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    border-radius: 150px;
+    border: 4px solid rgb(85, 172, 244);
+}
+h2 {
+    margin-top: 0;
+    font-size: 2.8rem;
+    text-align: center;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 rgb(85, 172, 244),
+    1px -1px 0 rgb(85, 172, 244),
+    -1px 1px 0 rgb(85, 172, 244),
+    1px 1px 0 rgb(85, 172, 244);
+}
+p {
+    font-size: 1.3rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/736x/7f/48/b1/7f48b16945f91215322ec200984fb64a.jpg);
+    background-size: 30%;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: white;
+    padding: 25px;
+    border-radius: 50px;
+    width: 70%;
+    border: 4px solid rgb(85, 172, 244);
+}
+a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(179, 79, 199);
+    border: 4px solid rgb(85, 172, 244);
+    padding: 10px;
+    border-radius: 25px;
+    width: 250px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: rgb(85, 172, 244);
+    transform: scale(1.1);
+}
